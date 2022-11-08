@@ -28,7 +28,7 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: node T.js ${{ secrets.TOKEN }}
-    - name: Commit and push if it changed
+    - name: Commit and push if it changes
       run: |-
         git config user.name "Automated"
         git config user.email "actions@users.noreply.github.com"
