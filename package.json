@@ -1,0 +1,16 @@
+{
+  "name": "token",
+  "version": "1.0",
+  "description": "bla bla bla",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  }
+}
